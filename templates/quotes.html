@@ -1,0 +1,26 @@
+
+        <div class="container-fluid">
+            <div class="wrapper">
+                <div class="jumbotron">
+                    <section>
+                       <h3 id="quote">{{ initialQuote }} </h3><h3> @<span id="author">{{ initialQuoteAuthor }}</span></h3>
+                    </section>
+                    <section>
+                        <div class="row">
+                            <div class="col-xs-6 primary">
+                                <a class="btn btn-primary" id="twitter" target="_blank" ng-href="{{link}}">Tweet</a>
+                            </div>
+                            <div class="col-xs-6 secondary">
+                                <button class="btn btn-primary" id="newquote" ng-click="getRandomQuote()">New Quote</button>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                
+                <footer class="text-center">
+                    <h4>Written and coded by <a href="http://www.freecodecamp.com/priyesht" target="_blank">Priyesh Tungare</a></h4>
+                    <h4><a id="follow" class="btn btn-default" target="_blank" ng-click="followme()"><i class="fa fa-twitter"></i>Follow @miPriyesh</a></h4>
+                </footer>
+            </div>
+            
+        </div>
